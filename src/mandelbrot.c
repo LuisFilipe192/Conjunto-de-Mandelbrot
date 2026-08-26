@@ -43,6 +43,8 @@ int main(int argc, char *argv[]){
         return 1;
     }
 
+    int largura = (int)valor;
+
 // altura
     errno = 0;
     valor = strtol(argv[2], &end, 10);
@@ -142,6 +144,72 @@ int main(int argc, char *argv[]){
     }
 
     int num_threads = (int)valor;
+
+    unsigned char *imagem =malloc(largura * altura * sizeof(unsigned char));
+
+    if(imagem == NULL){
+
+        fprintf(stderr,"Erro: falha na alocacao de memoria.\n");
+
+        return 1;
+    }
+
+    for(int y=0;y<altura;y++){
+        for(int x=0;x<largura;x++){
+
+            double real = -2.0 + x * 3.0/(largura-1);
+            double imag = -1.5 + y * 3.0/(altura-1);
+
+            double z_real = 0.0;
+            double z_imag = 0.0;
+
+            int iteracoes =0;
+
+            while(iteracoes<max_iteracoes){
+
+                double novo_real = z_real*z_real-z_imag*z_imag+real;
+                double novo_imag = 2.0*z_real*z_imag+imag;
+
+                z_real = novo_real;
+                z_imag = novo_imag;
+
+                iteracoes++;
+
+                if(z_real*z_real + z_imag*z_imag > 4.0){
+                    break;
+                }
+            }
+
+            int intensidade = (int)((iteracoes*255.0)/max_iteracoes);
+
+            imagem[y*largura + x] =intensidade;
+        }
+    }
+
+    FILE *arquivo = fopen("mandelbrot_mla_serial.pgm","w");
+
+    if(arquivo == NULL){
+        fprintf(stderr, "Erro: falha na criacao do arquivo de saida.\n");
+        free(imagem);
+
+        return 1;
+    }
+
+    for(int y=0;y<altura;y++){
+        for(int x=0;x<largura;x++){
+
+            fprintf(arquivo,"%d",imagem[y*largura + x]);
+
+            if(x < largura-1){
+                fprintf(arquivo," ");
+            }
+        }
+
+        fprintf(arquivo,"\n");
+    }
+
+    fclose(arquivo);
+
 
     return 0;
 }

@@ -9,4 +9,23 @@ Script started on 2026-08-26 16:55:20-03:00 [TERM="xterm-256color" TTY="/dev/pts
 [?2004lErro: argumentos invalidos
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mecho $?[27mecho $?
 [?2004l1
-[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 800 600 1000 4[27m./
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 800 600 1000 4[27m./mandelbrot 800 600 1000 4
+[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mecho $?[27mecho $?
+[?2004l0
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mgcc src/mandelbrot.c -o mandelbrot[27mgcc src/mandelbrot.c -o mandelbrot
+[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 10 10 100 4[27m./mandelbrot 10 10 100 4
+[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mls[27mls
+[?2004l[0m[01;32mREADME.md[0m  [01;32mevidencias.log[0m  [01;32mmakefile[0m  [01;32mmandelbrot[0m  [34;42msrc[0m
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [K]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [K]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [K]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mgcc src/mandelbrot.c -o mandelbrot[27mgcc src/mandelbrot.c -o mandelbrot
+[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ ][K]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ ][K]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ ][K[7m./mandelbrot 10 10 100 4[27m./mandelbrot 10 10 100 4
+[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mls[27mls
+[?2004l[0m[01;32mREADME.md[0m  [01;32mevidencias.log[0m  [01;32mmakefile[0m  [01;32mmandelbrot[0m  [01;32mmandelbrot_mla_serial.pgm[0m  [34;42msrc[0m
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mcat mandelbrot_mla_serial.pgm[27mcat mandelbrot_mla_serial.pgm
+[?2004l2 2 2 5 5 5 5 5 5 5
+2 2 5 7 7 7 7 5 5 5
+2 7 7 7 10 17 86 10 7 5
+2 7 10 12 25 255 255 45 7 5
+2 12 22 255 255 255 255 255 10 5
+2 12 22 255 255 255 255 255 10 5
+2 7 10 12 25 255 255 45 7 5
+2 7 7 7 10 1
