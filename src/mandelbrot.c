@@ -2,6 +2,7 @@
 #include <stdlib.h>
 #include <limits.h>
 #include <errno.h>
+#include <time.h>
 
 int main(int argc, char *argv[]){
     
@@ -145,6 +146,9 @@ int main(int argc, char *argv[]){
 
     int num_threads = (int)valor;
 
+    struct timespec inicio;
+    struct timespec fim;
+
     unsigned char *imagem =malloc(largura * altura * sizeof(unsigned char));
 
     if(imagem == NULL){
@@ -153,6 +157,8 @@ int main(int argc, char *argv[]){
 
         return 1;
     }
+
+    clock_gettime(CLOCK_MONOTONIC, &inicio);
 
     for(int y=0;y<altura;y++){
         for(int x=0;x<largura;x++){
@@ -185,6 +191,20 @@ int main(int argc, char *argv[]){
             imagem[y*largura + x] =intensidade;
         }
     }
+    clock_gettime(CLOCK_MONOTONIC, &fim);
+
+    double tempo = (fim.tv_sec - inicio.tv_sec)+(fim.tv_nsec - inicio.tv_nsec)/1000000000.0;
+
+    FILE *times = fopen("times.txt", "a");
+
+    if(times==NULL){
+        fprintf(stderr,"Erro: falha na criacao do arquivo times.txt.\n");
+        free(imagem);
+        return 1;
+    }
+
+    fprintf(times, "Serial: %.6f segundos\n", tempo);
+    fclose(times);
 
     FILE *arquivo = fopen("mandelbrot_mla_serial.pgm","w");
 
