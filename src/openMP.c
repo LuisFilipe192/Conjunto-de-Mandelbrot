@@ -4,6 +4,8 @@
 #include <errno.h>
 #include <time.h>
 
+#include <omp.h>
+
 int main(int argc, char *argv[]){
     
     long valor;
@@ -158,7 +160,11 @@ int main(int argc, char *argv[]){
         return 1;
     }
 
+    omp_set_num_threads(num_threads);
+
     clock_gettime(CLOCK_MONOTONIC, &inicio);
+
+    #pragma omp parallel for
 
     for(int y=0;y<altura;y++){
         for(int x=0;x<largura;x++){
@@ -203,10 +209,10 @@ int main(int argc, char *argv[]){
         return 1;
     }
 
-    fprintf(times, "Serial: %.6f segundos\n", tempo);
+    fprintf(times, "openMP: %.6f segundos\n", tempo);
     fclose(times);
 
-    FILE *arquivo = fopen("mandelbrot_serial.pgm","w");
+    FILE *arquivo = fopen("mandelbrot_openMP.pgm","w");
 
     if(arquivo == NULL){
         fprintf(stderr, "Erro: falha na criacao do arquivo de saida.\n");
