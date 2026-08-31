@@ -107,4 +107,39 @@ gcc src/openMP.c -o openMP -fopenmp
 [?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ cat times.txt[[K
 [?2004lSerial: 0.420630 segundos
 openMP: 0.242563 segundos
-[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandel
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mcmp mandelbrot_serial.pgm mandelbrot_openMP.pgm[27mcmp mandelbrot_serial.pgm mandelbrot_openMP.pgm
+[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ make
+[?2004lgcc src/mandelbrot.c -o mandelbrot
+gcc src/openMP.c -o openMP -fopenmp
+pthreads1:
+make: pthreads1:: No such file or directory
+make: *** [makefile:8: openMP] Error 127
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m#include <limits.h>[27m
+[7m#include <errno.h>[27m[A]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ #include <limits.h>
+[1P#include <errno.h[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmakd[Ke
+[?2004lmake: Nothing to be done for 'all'.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./pthreads1 10 10 100 4[27m./pthreads1 10 10 100 4
+[?2004lbash: ./pthreads1: No such file or directory
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ make
+[?2004lmake: *** No rule to make target 'pthreads1', needed by 'all'.  Stop.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ make
+[?2004lgcc src/pthreads1.c -o pthreads1 -pthread
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ make clean][K
+[?2004lrm -f mandelbrot openMP pthreads1
+rm -f *.pgm times.txt
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./pthreads1 10 10 100 4[27m./pthreads1 10 10 100 4
+[?2004lbash: ./pthreads1: No such file or directory
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ make clean
+[?2004lrm -f mandelbrot openMP pthreads1
+rm -f *.pgm times.txt
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ make
+[?2004lgcc src/mandelbrot.c -o mandelbrot
+gcc src/openMP.c -o openMP -fopenmp
+gcc src/pthreads1.c -o pthreads1 -pthread
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./pthreads1 10 10 100 4[27m./pthreads1 10 10 100 4
+[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./openMP 10 10 100 4[27m./openMP 10 10 100 4
+[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 10 10 100 4[27m./mandelbrot 10 10 100 4
+[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mcmp mandelbrot_mla_serial.pgm mandelbrot_mla_openMP.pgm[27mcmp mandelbrot_mla_serial.pgm mandelbrot_mla_openMP.pgm
+[?2004lcmp: mandelbrot_mla_serial.pgm: No such file or directory
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mcmp mandelbrot_lfass_serial.pgm mandelbrot_lfass_openMP.pgm[27mcmp mandelbrot_lfass_serial.pgm mandelbrot_lfass_openMP.pgm
+[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mcmp mandelbrot_lfass_serial.pgm mandelbrot_lfass_pthreads1.pgm[27mcmp mandelbrot_lfass_serial.pgm 

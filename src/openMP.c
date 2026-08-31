@@ -212,7 +212,7 @@ int main(int argc, char *argv[]){
     fprintf(times, "openMP: %.6f segundos\n", tempo);
     fclose(times);
 
-    FILE *arquivo = fopen("mandelbrot_openMP.pgm","w");
+    FILE *arquivo = fopen("mandelbrot_lfass_openmp.pgm","w");
 
     if(arquivo == NULL){
         fprintf(stderr, "Erro: falha na criacao do arquivo de saida.\n");

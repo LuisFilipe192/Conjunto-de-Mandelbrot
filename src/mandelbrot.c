@@ -206,7 +206,7 @@ int main(int argc, char *argv[]){
     fprintf(times, "Serial: %.6f segundos\n", tempo);
     fclose(times);
 
-    FILE *arquivo = fopen("mandelbrot_serial.pgm","w");
+    FILE *arquivo = fopen("mandelbrot_lfass_serial.pgm","w");
 
     if(arquivo == NULL){
         fprintf(stderr, "Erro: falha na criacao do arquivo de saida.\n");
