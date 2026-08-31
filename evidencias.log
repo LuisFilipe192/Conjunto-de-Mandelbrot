@@ -102,4 +102,9 @@ gcc src/openMP.c -o openMP -fopenmp
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ make
 [?2004lgcc src/mandelbrot.c -o mandelbrot
 gcc src/openMP.c -o openMP -fopenmp
-[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FAC
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mrm -f times.txt[27m[1Prm -f times.tx[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmake clean[Kcmp mandelbrot_serial.pgm mandelbrot_openMP.pgm[24P./openMP 800 600 1000 4[4@mandelbrot[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake[K./mandelbrot 800 600 1000 4[4PopenMP[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4@mandelbrot[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ ./mandelbrot 800 600 1000 4make[K clean[Kcmp mandelbrot_serial.pgm mandelbrot_openMP.pgm[24P./openMP 800 600 1000 4[4@mandelbrot[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4PopenMP[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ cat times.txt[[K
+[?2004lSerial: 0.420630 segundos
+openMP: 0.242563 segundos
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandel
