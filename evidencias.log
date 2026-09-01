@@ -1,27 +1,52 @@
 Script started on 2026-08-26 16:55:20-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="141" LINES="23"]
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ .[Kmake
-[?2004lmake: *** No targets.  Stop.
+[?2004l
+make: *** No targets.  Stop.
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mgcc src/mandelbrot.c -o mandelbrot[27mgcc src/mandelbrot.c -o mandelbrot
-[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot[27m./mandelbrot
-[?2004lErro: argumentos invalidos
+[?2004l
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot[27m./mandelbrot
+[?2004l
+Erro: argumentos invalidos
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 800 600 1000 4[27m./mandelbrot 800 600 1000 4
-[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 800 600 1000 4 qualquer[27m./mandelbrot 800 600 1000 4 qualquer
-[?2004lErro: argumentos invalidos
+[?2004l
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 800 600 1000 4 qualquer[27m./mandelbrot 800 600 1000 4 qualquer
+[?2004l
+Erro: argumentos invalidos
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mecho $?[27mecho $?
-[?2004l1
+[?2004l
+1
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 800 600 1000 4[27m./mandelbrot 800 600 1000 4
-[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mecho $?[27mecho $?
-[?2004l0
+[?2004l
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mecho $?[27mecho $?
+[?2004l
+0
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mgcc src/mandelbrot.c -o mandelbrot[27mgcc src/mandelbrot.c -o mandelbrot
-[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 10 10 100 4[27m./mandelbrot 10 10 100 4
-[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mls[27mls
-[?2004l[0m[01;32mREADME.md[0m  [01;32mevidencias.log[0m  [01;32mmakefile[0m  [01;32mmandelbrot[0m  [34;42msrc[0m
-[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [K]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [K]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [K]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mgcc src/mandelbrot.c -o mandelbrot[27mgcc src/mandelbrot.c -o mandelbrot
-[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ ][K]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ ][K]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ ][K[7m./mandelbrot 10 10 100 4[27m./mandelbrot 10 10 100 4
-[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mls[27mls
-[?2004l[0m[01;32mREADME.md[0m  [01;32mevidencias.log[0m  [01;32mmakefile[0m  [01;32mmandelbrot[0m  [01;32mmandelbrot_mla_serial.pgm[0m  [34;42msrc[0m
+[?2004l
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 10 10 100 4[27m./mandelbrot 10 10 100 4
+[?2004l
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mls[27mls
+[?2004l
+[0m[01;32mREADME.md[0m  [01;32mevidencias.log[0m  [01;32mmakefile[0m  [01;32mmandelbrot[0m  [34;42msrc[0m
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ 
+[K
+]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ 
+[K
+]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ 
+[K
+]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mgcc src/mandelbrot.c -o mandelbrot[27mgcc src/mandelbrot.c -o mandelbrot
+[?2004l
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ ]
+[K
+]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ ]
+[K
+]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ ][K[7m./mandelbrot 10 10 100 4[27m./mandelbrot 10 10 100 4
+[?2004l
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mls[27mls
+[?2004l
+[0m[01;32mREADME.md[0m  [01;32mevidencias.log[0m  [01;32mmakefile[0m  [01;32mmandelbrot[0m  [01;32mmandelbrot_mla_serial.pgm[0m  [34;42msrc[0m
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mcat mandelbrot_mla_serial.pgm[27mcat mandelbrot_mla_serial.pgm
-[?2004l2 2 2 5 5 5 5 5 5 5
+[?2004l
+2 2 2 5 5 5 5 5 5 5
 2 2 5 7 7 7 7 5 5 5
 2 7 7 7 10 17 86 10 7 5
 2 7 10 12 25 255 255 45 7 5
@@ -29,40 +54,80 @@ Script started on 2026-08-26 16:55:20-03:00 [TERM="xterm-256color" TTY="/dev/pts
 2 12 22 255 255 255 255 255 10 5
 2 7 10 12 25 255 255 45 7 5
 2 7 7 7 10 1Script started on 2026-08-28 13:24:27-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="141" LINES="21"]
-[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [K]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [K]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [K]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [K]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [K]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mgcc src/mandelbrot.c -o mandelbrot[27mgcc src/mandelbrot.c -o mandelbrot
-[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [K]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mrm -f times.txt[27mrm -f times.txt
-[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [K]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 800 600 1000 4[27m./mandelbrot 800 600 1000 4
-[?2004l] [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mcat times.txt[27mcat times.txt
-[?2004lSerial: 1.000000 segundos
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ 
+[K
+]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ 
+[K
+]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ 
+[K
+]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ 
+[K
+]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ 
+[K
+]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mgcc src/mandelbrot.c -o mandelbrot[27mgcc src/mandelbrot.c -o mandelbrot
+[?2004l
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ 
+[K
+]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mrm -f times.txt[27mrm -f times.txt
+[?2004l
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ 
+[K
+]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 800 600 1000 4[27m./mandelbrot 800 600 1000 4
+[?2004l
+] [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mcat times.txt[27mcat times.txt
+[?2004l
+Serial: 1.000000 segundos
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mgcc src/mandelbrot.c -o mandelbrot[27mgcc src/mandelbrot.c -o mandelbrot
-[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mrm -f times.txt[27mrm -f times.txt
-[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 800 600 1000 4[27m./mandelbrot 800 600 1000 4
-[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mcat times.txt[27mcat times.txt
-[?2004lSerial: 0.597538 segundos
+[?2004l
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mrm -f times.txt[27mrm -f times.txt
+[?2004l
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 800 600 1000 4[27m./mandelbrot 800 600 1000 4
+[?2004l
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mcat times.txt[27mcat times.txt
+[?2004l
+Serial: 0.597538 segundos
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 800 600 1000 4 > saida.txt[27m./mandelbrot 800 600 1000 4 > saida.txt
-[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mwc -c saida.txt[27mwc -c saida.txt
-[?2004l0 saida.txt
+[?2004l
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mwc -c saida.txt[27mwc -c saida.txt
+[?2004l
+0 saida.txt
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mwc -l mandelbrot_mla_serial.pgm[27mwc -l mandelbrot_mla_serial.pgm
-[?2004l600 mandelbrot_mla_serial.pgm
-[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mawk '{if(NF != 800) print "Linha com erro:", NR, "pixels:", NF}' m[27m[7ma[27m[7mndelbrot_mla_serial.pgm[27m[A]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ awk '{if(NF != 800) print "Linha com erro:", NR, "pixels:", NF}' mandelbrot_mla_serial.pgm
-[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [K]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [K]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-MandelbrotScript started on 2026-08-31 09:14:06-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="141" LINES="12"]
+[?2004l
+600 mandelbrot_mla_serial.pgm
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mawk '{if(NF != 800) print "Linha com erro:", NR, "pixels:", NF}' m[27m[7ma[27m[7mndelbrot_mla_serial.pgm[27m[A
+]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ awk '{if(NF != 800) print "Linha com erro:", NR, "pixels:", NF}' mandelbrot_mla_serial.pgm
+[?2004l
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ 
+[K
+]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ 
+[K
+]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-MandelbrotScript started on 2026-08-31 09:14:06-03:00 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="141" LINES="12"]
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mgcc src/mandelbrot.c -o mandelbrot -fopenmp[27mgcc src/mandelbrot.c -o mandelbrot -fopenmp
-[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ make clean
-[?2004lrm -f mandelbrot openMP
+[?2004l
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ make clean
+[?2004l
+rm -f mandelbrot openMP
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ make
-[?2004lgcc src/mandelbrot.c -o mandelbrot
+[?2004l
+gcc src/mandelbrot.c -o mandelbrot
 make: *** No rule to make target 'mandelbrot_openmp', needed by 'all'.  Stop.
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 800 600 1000 4[27m./mandelbrot 800 600 1000 4
-[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot_openmp 800 600 1000 4[27m./mandelbrot_openmp 800 600 1000 4
-[?2004lbash: ./mandelbrot_openmp: No such file or directory
+[?2004l
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot_openmp 800 600 1000 4[27m./mandelbrot_openmp 800 600 1000 4
+[?2004l
+bash: ./mandelbrot_openmp: No such file or directory
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ ./openMP [7m800 600 1000 4[27m800 600 1000 4
-[?2004lbash: ./openMP: No such file or directory
+[?2004l
+bash: ./openMP: No such file or directory
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./openMP 800 600 1000 4[27m./openMP 800 600 1000 4
-[?2004lbash: ./openMP: No such file or directory
+[?2004l
+bash: ./openMP: No such file or directory
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ make clean
-[?2004lrm -f mandelbrot openMP
+[?2004l
+rm -f mandelbrot openMP
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ make
-[?2004lgcc src/mandelbrot.c -o mandelbrot
+[?2004l
+gcc src/mandelbrot.c -o mandelbrot
 gcc src/openMP.c -o openMP -fopenmp
 [01m[Ksrc/openMP.c:[m[K In function ‘[01m[Kmain[m[K’:
 [01m[Ksrc/openMP.c:167:5:[m[K [01;31m[Kerror: [m[Kfor statement expected before ‘[01m[Kclock_gettime[m[K’
@@ -70,76 +135,155 @@ gcc src/openMP.c -o openMP -fopenmp
       |     [01;31m[K^~~~~~~~~~~~~[m[K
 make: *** [makefile:7: openMP] Error 1
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ make clean
-[?2004lrm -f mandelbrot openMP
+[?2004l
+rm -f mandelbrot openMP
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ make 4[K
-[?2004lgcc src/mandelbrot.c -o mandelbrot
+[?2004l
+gcc src/mandelbrot.c -o mandelbrot
 gcc src/openMP.c -o openMP -fopenmp
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mrm -f times.txt[27mrm -f times.txt
-[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mrm -f mandelbrot_mla_openmp.pgm[27mrm -f mandelbrot_mla_openmp.pgm
-[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./openMP 10 10 100 4[27m./openMP 10 10 100 4
-[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mcat times.txt[27mcat times.txt
-[?2004lSerial: 0.000274 segundos
-[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [K]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [K]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [K]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [K]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 10 10 100 4[27m./mandelbrot 10 10 100 4
-[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ make clean
-[?2004lrm -f mandelbrot openMP
+[?2004l
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mrm -f mandelbrot_mla_openmp.pgm[27mrm -f mandelbrot_mla_openmp.pgm
+[?2004l
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./openMP 10 10 100 4[27m./openMP 10 10 100 4
+[?2004l
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mcat times.txt[27mcat times.txt
+[?2004l
+Serial: 0.000274 segundos
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ 
+[K
+]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ 
+[K
+]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ 
+[K
+]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ 
+[K
+]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 10 10 100 4[27m./mandelbrot 10 10 100 4
+[?2004l
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ make clean
+[?2004l
+rm -f mandelbrot openMP
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ make
-[?2004lgcc src/mandelbrot.c -o mandelbrot
+[?2004l
+gcc src/mandelbrot.c -o mandelbrot
 gcc src/openMP.c -o openMP -fopenmp
-[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [K]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ make clean./mandelbrot 10 10 100 4[11Pcat times.txt./mandelbrot 10 10 100 4[11Pcat times.txt./openMP 10 10 100 4rm -f mandelbrot_mla_openmp.pgm[11P./openMP 10 10 100 4[7Pcat times.txt./mandelbrot 10 10 100 4
-[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ ./mandelbrot 10 10 100 4make[K clean./mandelbrot 10 10 100 4[11Pcat times.txt./openMP 10 10 100 4
-[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ make clean
-[?2004lrm -f mandelbrot openMP
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ 
+[K
+]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ make clean./mandelbrot 10 10 100 4[11Pcat times.txt./mandelbrot 10 10 100 4[11Pcat times.txt./openMP 10 10 100 4rm -f mandelbrot_mla_openmp.pgm[11P./openMP 10 10 100 4[7Pcat times.txt./mandelbrot 10 10 100 4
+[?2004l
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ ./mandelbrot 10 10 100 4make[K clean./mandelbrot 10 10 100 4[11Pcat times.txt./openMP 10 10 100 4
+[?2004l
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ make clean
+[?2004l
+rm -f mandelbrot openMP
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ make
-[?2004lgcc src/mandelbrot.c -o mandelbrot
+[?2004l
+gcc src/mandelbrot.c -o mandelbrot
 gcc src/openMP.c -o openMP -fopenmp
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 800 600 1000 4[27m./mandelbrot 800 600 1000 4
-[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./openMP 800 600 1000 4[27m./openMP 800 600 1000 4
-[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mcmp mandelbrot_serial.pgm mandelbrot_openMP.pgm[27mcmp mandelbrot_serial.pgm mandelbrot_openMP.pgm
-[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ mk[Kake
-[?2004lmake: Nothing to be done for 'all'.
+[?2004l
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./openMP 800 600 1000 4[27m./openMP 800 600 1000 4
+[?2004l
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mcmp mandelbrot_serial.pgm mandelbrot_openMP.pgm[27mcmp mandelbrot_serial.pgm mandelbrot_openMP.pgm
+[?2004l
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ mk[Kake
+[?2004l
+make: Nothing to be done for 'all'.
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ make clean
-[?2004lrm -f mandelbrot openMP
+[?2004l
+rm -f mandelbrot openMP
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ make
-[?2004lgcc src/mandelbrot.c -o mandelbrot
+[?2004l
+gcc src/mandelbrot.c -o mandelbrot
 gcc src/openMP.c -o openMP -fopenmp
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mrm -f times.txt[27m[1Prm -f times.tx[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmake clean[Kcmp mandelbrot_serial.pgm mandelbrot_openMP.pgm[24P./openMP 800 600 1000 4[4@mandelbrot[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cmake[K./mandelbrot 800 600 1000 4[4PopenMP[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4@mandelbrot[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ ./mandelbrot 800 600 1000 4make[K clean[Kcmp mandelbrot_serial.pgm mandelbrot_openMP.pgm[24P./openMP 800 600 1000 4[4@mandelbrot[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4PopenMP[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
-[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ cat times.txt[[K
-[?2004lSerial: 0.420630 segundos
+[?2004l
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ ./mandelbrot 800 600 1000 4make[K clean[Kcmp mandelbrot_serial.pgm mandelbrot_openMP.pgm[24P./openMP 800 600 1000 4[4@mandelbrot[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[4PopenMP[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ cat times.txt[[K
+[?2004l
+Serial: 0.420630 segundos
 openMP: 0.242563 segundos
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mcmp mandelbrot_serial.pgm mandelbrot_openMP.pgm[27mcmp mandelbrot_serial.pgm mandelbrot_openMP.pgm
-[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ make
-[?2004lgcc src/mandelbrot.c -o mandelbrot
+[?2004l
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ make
+[?2004l
+gcc src/mandelbrot.c -o mandelbrot
 gcc src/openMP.c -o openMP -fopenmp
 pthreads1:
 make: pthreads1:: No such file or directory
 make: *** [makefile:8: openMP] Error 127
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m#include <limits.h>[27m
-[7m#include <errno.h>[27m[A]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ #include <limits.h>
-[1P#include <errno.h[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmakd[Ke
-[?2004lmake: Nothing to be done for 'all'.
+
+[7m#include <errno.h>[27m[A
+]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ #include <limits.h>
+
+[1P#include <errno.h[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kmakd[Ke
+[?2004l
+make: Nothing to be done for 'all'.
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./pthreads1 10 10 100 4[27m./pthreads1 10 10 100 4
-[?2004lbash: ./pthreads1: No such file or directory
+[?2004l
+bash: ./pthreads1: No such file or directory
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ make
-[?2004lmake: *** No rule to make target 'pthreads1', needed by 'all'.  Stop.
+[?2004l
+make: *** No rule to make target 'pthreads1', needed by 'all'.  Stop.
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ make
-[?2004lgcc src/pthreads1.c -o pthreads1 -pthread
+[?2004l
+gcc src/pthreads1.c -o pthreads1 -pthread
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ make clean][K
-[?2004lrm -f mandelbrot openMP pthreads1
+[?2004l
+rm -f mandelbrot openMP pthreads1
 rm -f *.pgm times.txt
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./pthreads1 10 10 100 4[27m./pthreads1 10 10 100 4
-[?2004lbash: ./pthreads1: No such file or directory
+[?2004l
+bash: ./pthreads1: No such file or directory
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ make clean
-[?2004lrm -f mandelbrot openMP pthreads1
+[?2004l
+rm -f mandelbrot openMP pthreads1
 rm -f *.pgm times.txt
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ make
-[?2004lgcc src/mandelbrot.c -o mandelbrot
+[?2004l
+gcc src/mandelbrot.c -o mandelbrot
 gcc src/openMP.c -o openMP -fopenmp
 gcc src/pthreads1.c -o pthreads1 -pthread
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./pthreads1 10 10 100 4[27m./pthreads1 10 10 100 4
-[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./openMP 10 10 100 4[27m./openMP 10 10 100 4
-[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 10 10 100 4[27m./mandelbrot 10 10 100 4
-[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mcmp mandelbrot_mla_serial.pgm mandelbrot_mla_openMP.pgm[27mcmp mandelbrot_mla_serial.pgm mandelbrot_mla_openMP.pgm
-[?2004lcmp: mandelbrot_mla_serial.pgm: No such file or directory
+[?2004l
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./openMP 10 10 100 4[27m./openMP 10 10 100 4
+[?2004l
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 10 10 100 4[27m./mandelbrot 10 10 100 4
+[?2004l
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mcmp mandelbrot_mla_serial.pgm mandelbrot_mla_openMP.pgm[27mcmp mandelbrot_mla_serial.pgm mandelbrot_mla_openMP.pgm
+[?2004l
+cmp: mandelbrot_mla_serial.pgm: No such file or directory
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mcmp mandelbrot_lfass_serial.pgm mandelbrot_lfass_openMP.pgm[27mcmp mandelbrot_lfass_serial.pgm mandelbrot_lfass_openMP.pgm
-[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mcmp mandelbrot_lfass_serial.pgm mandelbrot_lfass_pthreads1.pgm[27mcmp mandelbrot_lfass_serial.pgm 
+[?2004l
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mcmp mandelbrot_lfass_serial.pgm mandelbrot_lfass_pthreads1.pgm[27mcmp mandelbrot_lfass_serial.pgm mandelbrot_lfass_pthreads1.pgm
+[?2004l
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ make clean
+[?2004l
+rm -f mandelbrot openMP pthreads1
+rm -f *.pgm times.txt
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [?2004l
+
+exit
+Script started on 2026-09-01 09:23:33-03:00 [TERM="xterm-256color" TTY="/dev/pts/2" COLUMNS="141" LINES="9"]
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 800 600 1000 4[27m./mandelbrot 800 600 1000 4
+[?2004l^[[A^[[A^[[A^[[A^[[A[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ ./mandelbrot 800 600 1000 4[17Pmake cleancmp mandelbrot_lfass_serial.pgm mandelbrot_lfass_pthreads1.pgm[3PopenMP.pgm[4Pmla_serial.pgm mandelbrot_mla_openMP.pgm[31P./mandelbrot 10 10 100 4[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K./openMP 10 10 100 4[3@pthreads1[C[C[C[C[C[C[C[C[C[C[C[Cmake[K./pthreads1 10 10 100 4[3PopenMP[C[C[C[C[C[C[C[C[C[C[C[C[3@pthreads1[C[C[C[C[C[C[C[C[C[C[C[Cmake[K clean[K./pthreads1 10 10 100 4[3PopenMP[C[C[C[C[C[C[C[C[C[C[C[C[Kcmp mandelbrot_mla_serial.pgm mandelbrot_mla_openMP.pgmlfass_serial.pgm mandelbrot_lfass_openMP.pgmpthreads1.pgmmake clean[K./mandelbrot 800 600 1000 4[K./mandelbrot 800 600 1000 4[17Pmake cleancmp mandelbrot_lfass_serial.pgm mandelbrot_lfass_pthreads1.pgm[3PopenMP.pgm[4Pmla_serial.pgm mandelbrot_mla_openMP.pgm[K./openMP 10 10 100 4[3@pthreads1[C[C[C[C[C[C[C[C[C[C[C[Cmake[K clean./pthreads1 10 10 100 4[13Pmake clean[K./pthreads1 10 10 100 4make[K./pthreads1 10 10 100 4make[K clean./pthreads1 10 10 100 4[13Pmake clean[K./pthreads1 10 10 100 4[3PopenMP[C[C[C[C[C[C[C[C[C[C[C[C[Kcmp mandelbrot_mla_serial.pgm mandelbrot_mla_openMP.pgmlfass_serial.pgm mandelbrot_lfass_openMP.pgmpthreads1.pgmmake clean[K./mandelbrot 800 600 1000 4[K./mandelbrot 800 600 1000 4[K./mandelbrot 800 600 1000 4[7m./openMP 800 600 1000 4[27m./openMP 800 600 1000 4
+[?2004lErro: argumentos invalidos
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./pthreads1 800 600 1000 4[27m./pthreads1 800 600 1000 4
+[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./openMP 800 600 1000 4[27m./openMP 800 600 1000 4
+[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./pthreads2 800 600 1000 4[27m./pthreads2 800 600 1000 4
+[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mrm -f times.txt[27mrm -f times.txt
+[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./pthreads1 800 600 1000 4[27m./pthreads1 800 600 1000 4
+[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ ./pthreads1 800 600 1000 4[11Prm -f times.txt./pthreads2 800 600 1000 4[3PopenMP[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@pthreads1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24@mandelbrot 800 600 1000 4./openMP[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K./openMP 800 600 1000 4[24Ppthreads1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3PopenMP[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ ./openMP 800 600 1000 4[3@pthreads1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3PopenMP[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K./openMP 800 600 1000 4[3@pthreads1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Prm -f times.txt./pthreads2 800 600 1000 4
+[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ ./pthreads2 800 600 1000 4[3PopenMP[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@pthreads1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[11Prm -f times.txt./pthreads2 800 600 1000 4[3PopenMP[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[3@pthreads1[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[24@mandelbrot 800 600 1000 4./openMP[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ ct ti[K[K[K[Kat times.txt
+[?2004lPthreads1: 0.346654 segundos
+openMP: 0.358132 segundos
+Pthreads2: 0.226113 segundos
+Serial: 0.637659 segundos
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mcmp mandelbrot_lfass_serial.pgm mandelbrot_lfass_pthreads1.pgm[27mcmp mandelbrot_lfass_serial.pgm mandelbrot_lfass_pthreads1.pgm
+[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mcmp mandelbrot_lfass_serial.pgm mandelbrot_lfass_pthreads1.pgm[27mcmp mandelbrot_lfass_serial.pgm mandelbrot_lfass_pthreads1.pgm
+[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mcmp mandelbrot_lfass_serial.pgm mandelbrot_lfass_pthreads2.pgm[27mcmp mandelbrot_lfass_serial.pgm
