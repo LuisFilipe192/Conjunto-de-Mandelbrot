@@ -478,4 +478,74 @@ Erro: num_threads deve ser maior que zero.
 Erro: numero fora do limite permitido.
 Erro: numero fora do limite permitido.
 Erro: numero fora do limite permitido.
-Erro: numer
+Erro: numero fora do limite permitido.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ make clean
+[?2004lrm -f mandelbrot openMP pthreads1 pthreads2
+rm -f *.pgm times.txt
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ make
+[?2004lgcc src/mandelbrot.c -o mandelbrot
+gcc src/openMP.c -o openMP -fopenmp
+gcc src/pthreads1.c -o pthreads1 -pthread
+gcc src/pthreads2.c -o pthreads2 -pthread
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mrm -f times.txt[27m
+
+[7m./mandelbrot 800 600 1000 4[27m
+[7m./openMP 800 600 1000 4[27m
+[7m./pthreads1 800 600 1000 4[27m
+[7m./pthreads2 800 600 1000 4[27m
+
+[7mcat times.txt[27m[A[A[A[A[A[A[A]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ rm -f times.txt
+
+./mandelbrot 800 600 1000 4
+./openMP 800 600 1000 4
+./pthreads1 800 600 1000 4
+./pthreads2 800 600 1000 4
+
+cat times.txt
+[?2004lSerial: 0.630184 segundos
+openMP: 0.366005 segundos
+Pthreads1: 0.319533 segundos
+Pthreads2: 0.267578 segundos
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mcmp mandelbrot_lfass_serial.pgm mandelbrot_lfass_openmp.pgm[27m
+[7mcmp mandelbrot_lfass_serial.pgm mandelbrot_lfass_pthreads1.pgm[27m
+[7mcmp mandelbrot_lfass_serial.pgm mandelbrot_lfass_pthreads2.pgm[27m[A[A]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ cmp mandelbrot_lfass_serial.pgm mandelbrot_lfass_openmp.pgm
+cmp mandelbrot_lfass_serial.pgm mandelbrot_lfass_pthreads1.pgm
+cmp mandelbrot_lfass_serial.pgm mandelbrot_lfass_pthreads2.pgm
+[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ rm -f times.txt
+
+./mandelbrot 800 600 1000 1
+./openMP 800 600 1000 1
+./pthreads1 800 600 1000 1
+./pthreads2 800 600 1000 1
+
+./openMP 800 600 1000 2
+./pthreads1 800 600 1000 2./pthreads2 800 600 1000 2./openMP 800 600 1000 4[7m./pthreads1 800 600 1000 4[27m[7m./pthreads2 800 600 1000 4[27m[7m./openMP 800 600 1000 8[27m[7m./pthreads1 800 600 1000 8[27m[7m./pthreads2 800 600 1000 8[27m[7mcat times.txt[27m./pthreads1 800 600 1000 4./pthreads2 800 600 1000 4./openMP 800 600 1000 8./pthreads1 800 600 1000 8./pthreads2 800 600 1000 8cat times.txt
+[?2004lSerial: 0.676352 segundos
+openMP: 0.640279 segundos
+Pthreads1: 0.668072 segundos
+Pthreads2: 0.769879 segundos
+openMP: 0.342010 segundos
+Pthreads1: 0.342258 segundos
+Pthreads2: 0.334028 segundos
+openMP: 0.325682 segundos
+Pthreads1: 0.343500 segundos
+Pthreads2: 0.211049 segundos
+openMP: 0.245623 segundos
+Pthreads1: 0.253009 segundos
+Pthreads2: 0.175263 segundos
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 800 600 1000 8[27m
+[7m./openMP 800 600 1000 8[27m
+[7m./pthreads1 800 600 1000 8[27m
+[7m./pthreads2 800 600 1000 8[27m
+
+[7mcmp mandelbrot_lfass_serial.pgm mandelbrot_lfass_openmp.pgm[27m
+[7mcmp mandelbrot_lfass_serial.pgm mandelbrot_lfass_pthreads1.pgm[27m
+[7mcmp mandelbrot_lfass_serial.pgm mandelbrot_lfass_pthreads2.pgm[27m[A[A[A[A[A[A[A]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ ./mandelbrot 800 600 1000 8
+./openMP 800 600 1000 8
+./pthreads1 800 600 1000 8
+./pthreads2 800 600 1000 8
+
+cmp mandelbrot_lfass_serial.pgm mandelbrot_lfass_openmp.pgm
+cmp mandelbrot_lfass_serial.pgm mandelbrot_lfass_pthreads1.pgm
+cmp mandelbrot_lfass_serial.pgm mandelbrot_lfass_pthreads2.pgm
+[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FAC
