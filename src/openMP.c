@@ -15,7 +15,6 @@ int main(int argc, char *argv[]){
         return 1;
     }
 
-// largura
     errno = 0;
 
     char *end;
@@ -48,7 +47,6 @@ int main(int argc, char *argv[]){
 
     int largura = (int)valor;
 
-// altura
     errno = 0;
     valor = strtol(argv[2], &end, 10);
 
@@ -79,23 +77,17 @@ int main(int argc, char *argv[]){
 
     int altura = (int)valor;
 
-    // max_iteracoes
-
     errno = 0;
 
     valor = strtol(argv[3], &end, 10);
 
     if(*end != '\0'){
-
         fprintf(stderr, "Erro: argumento de max_iteracoes invalido.\n");
-
         return 1;
     }
 
     if(errno == ERANGE){
-
         fprintf(stderr, "Erro: numero fora do limite permitido.\n");
-
         return 1;
     }
 
@@ -116,8 +108,6 @@ int main(int argc, char *argv[]){
 
     int max_iteracoes = (int)valor;
 
-
-    //num_threads
     errno = 0;
     valor = strtol(argv[4], &end, 10);
 

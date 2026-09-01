@@ -286,4 +286,196 @@ Pthreads2: 0.226113 segundos
 Serial: 0.637659 segundos
 [?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mcmp mandelbrot_lfass_serial.pgm mandelbrot_lfass_pthreads1.pgm[27mcmp mandelbrot_lfass_serial.pgm mandelbrot_lfass_pthreads1.pgm
 [?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mcmp mandelbrot_lfass_serial.pgm mandelbrot_lfass_pthreads1.pgm[27mcmp mandelbrot_lfass_serial.pgm mandelbrot_lfass_pthreads1.pgm
-[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mcmp mandelbrot_lfass_serial.pgm mandelbrot_lfass_pthreads2.pgm[27mcmp mandelbrot_lfass_serial.pgm
+[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7mcmp mandelbrot_lfass_serial.pgm mandelbrot_lfass_pthreads2.pgm[27mcmp mandelbrot_lfass_serial.pgm mandelbrot_lfass_pthreads2.pgm
+[?2004l[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ make clean
+[?2004lrm -f mandelbrot openMP pthreads1 pthreads2
+rm -f *.pgm times.txt
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [K]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot abc 600 1000 4[27m./mandelbrot abc 600 1000 4
+[?2004lbash: ./mandelbrot: No such file or directory
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ make
+[?2004lgcc src/mandelbrot.c -o mandelbrot
+gcc src/openMP.c -o openMP -fopenmp
+gcc src/pthreads1.c -o pthreads1 -pthread
+gcc src/pthreads2.c -o pthreads2 -pthread
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot abc 600 1000 4[27m./mandelbrot abc 600 1000 4
+[?2004lErro: argumento da largura invalido.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 800 abc 1000 4[27m./mandelbrot 800 abc 1000 4
+[?2004lErro: argumento da altura invalido.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 800 600 abc 4[27m./mandelbrot 800 600 abc 4
+[?2004lErro: argumento de max_iteracoes invalido.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 800 600 1000 abc[27m./mandelbrot 800 600 1000 abc
+[?2004lErro: argumento de num_threads invalido.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 0 600 1000 4[27m./mandelbrot 0 600 1000 4
+[?2004lErro: largura deve ser maior que zero.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 800 0 1000 4[27m./mandelbrot 800 0 1000 4
+[?2004lErro: altura deve ser maior que zero.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 800 600 0 4[27m./mandelbrot 800 600 0 4
+[?2004lErro: max_iteracoes deve ser maior que zero.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 800 600 1000 0[27m./mandelbrot 800 600 1000 0
+[?2004lErro: num_threads deve ser maior que zero.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ make clean
+[?2004lrm -f mandelbrot openMP pthreads1 pthreads2
+rm -f *.pgm times.txt
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ make
+[?2004lgcc src/mandelbrot.c -o mandelbrot
+gcc src/openMP.c -o openMP -fopenmp
+gcc src/pthreads1.c -o pthreads1 -pthread
+gcc src/pthreads2.c -o pthreads2 -pthread
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot -1 600 1000 4[27m./mandelbrot -1 600 1000 4
+[?2004lErro: largura deve ser maior que zero.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 800 -1 1000 4[27m./mandelbrot 800 -1 1000 4
+[?2004lErro: altura deve ser maior que zero.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 800 600 -1 4[27m./mandelbrot 800 600 -1 4
+[?2004lErro: max_iteracoes deve ser maior que zero.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 800 600 -1 4[27m./mandelbrot 800 600 -1 4
+[?2004lErro: max_iteracoes deve ser maior que zero.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 800 600 1000 -1[27m./mandelbrot 800 600 1000 -1
+[?2004lErro: num_threads deve ser maior que zero.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 999999999999999999999999 600 1000 4[27m./mandelbrot 999999999999999999999999 600 1000 4
+[?2004lErro: numero fora do limite permitido.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 800 999999999999999999999999 1000 4[27m./mandelbrot 800 999999999999999999999999 1000 4
+[?2004lErro: numero fora do limite permitido.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 800 600 999999999999999999999999 4[27m./mandelbrot 800 600 999999999999999999999999 4
+[?2004lErro: numero fora do limite permitido.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 800 600 1000 999999999999999999999999[27m./mandelbrot 800 600 1000 999999999999999999999999
+[?2004lErro: numero fora do limite permitido.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 800[27m./mandelbrot 800
+[?2004lErro: argumentos invalidos
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 800[27m[1P./mandelbrot 80[K[K[K
+[?2004lErro: argumentos invalidos
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 800 600[27m./mandelbrot 800 600
+[?2004lErro: argumentos invalidos
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 800 600 1000[27m./mandelbrot 800 600 1000
+[?2004lErro: argumentos invalidos
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./mandelbrot 800 600 1000 4 extra[27m[1P./mandelbrot 800 600 1000 4 extr[K[K
+[?2004lErro: argumentos invalidos
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./openMP[27m./openMP
+[?2004lErro: argumentos invalidos
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./openMP 800[27m./openMP 800
+[?2004lErro: argumentos invalidos
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./openMP 800 600[27m./openMP 800 600
+[?2004lErro: argumentos invalidos
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./openMP 800 600 1000[27m./openMP 800 600 1000
+[?2004lErro: argumentos invalidos
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./openMP 800 600 1000 4 extra[27m./openMP 800 600 1000 4 extra
+[?2004lErro: argumentos invalidos
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./openMP abc 600 1000 4[27m./openMP abc 600 1000 4
+[?2004lErro: argumento da largura invalido.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./openMP 800 abc 1000 4[27m./openMP 800 abc 1000 4
+[?2004lErro: argumento da altura invalido.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./openMP 800 600 abc 4[27m./openMP 800 600 abc 4
+[?2004lErro: argumento de max_iteracoes invalido.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./openMP 800 600 1000 abc[27m./openMP 800 600 1000 abc
+[?2004lErro: argumento de num_threads invalido.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./openMP 0 600 1000 4[27m./openMP 0 600 1000 4
+[?2004lErro: largura deve ser maior que zero.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./openMP 800 0 1000 4[27m./openMP 800 0 1000 4
+[?2004lErro: altura deve ser maior que zero.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./openMP 800 600 0 4[27m./openMP 800 600 0 4
+[?2004lErro: max_iteracoes deve ser maior que zero.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ ^C[?2004l[?2004h[?2004l
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./openMP 800 600 1000 0[27m./openMP 800 600 1000 0
+[?2004lErro: num_threads deve ser maior que zero.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./openMP -1 600 1000 4[27m./openMP -1 600 1000 4
+[?2004lErro: largura deve ser maior que zero.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./openMP 800 -1 1000 4[27m./openMP 800 -1 1000 4
+[?2004lErro: altura deve ser maior que zero.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./openMP 800 600 -1 4[27m./openMP 800 600 -1 4
+[?2004lErro: max_iteracoes deve ser maior que zero.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./openMP 800 600 1000 -1[27m./openMP 800 600 1000 -1
+[?2004lErro: num_threads deve ser maior que zero.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./openMP 999999999999999999999999 600 1000 4[27m./openMP 999999999999999999999999 600 1000 4
+[?2004lErro: numero fora do limite permitido.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./openMP 800 999999999999999999999999 1000 4[27m./openMP 800 999999999999999999999999 1000 4
+[?2004lErro: numero fora do limite permitido.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./openMP 800 600 999999999999999999999999 4[27m./openMP 800 600 999999999999999999999999 4
+[?2004lErro: numero fora do limite permitido.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./openMP 800 600 1000 999999999999999999999999[27m./openMP 800 600 1000 999999999999999999999999
+[?2004lErro: numero fora do limite permitido.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./pthreads1[27m./pthreads1
+[?2004lErro: argumentos invalidos
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./pthreads1 800[27m
+[7m./pthreads1 800 600[27m
+[7m./pthreads1 800 600 1000[27m
+[7m./pthreads1 800 600 1000 4 extra[27m[A[A[A]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ ./pthreads1 800
+./pthreads1 800 600
+./pthreads1 800 600 1000
+./pthreads1 800 600 1000 4 extra
+[?2004lErro: argumentos invalidos
+Erro: argumentos invalidos
+Erro: argumentos invalidos
+Erro: argumentos invalidos
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./pthreads1 abc 600 1000 4[27m
+[7m./pthreads1 800 abc 1000 4[27m
+[7m./pthreads1 800 600 abc 4[27m
+[7m./pthreads1 800 600 1000 abc[27m[A[A[A]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ ./pthreads1 abc 600 1000 4
+./pthreads1 800 abc 1000 4
+./pthreads1 800 600 abc 4
+./pthreads1 800 600 1000 abc
+[?2004lErro: argumento da largura invalido.
+Erro: argumento da altura invalido.
+Erro: argumento de max_iteracoes invalido.
+Erro: argumento de num_threads invalido.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./pthreads1 0 600 1000 4[27m
+[7m./pthreads1 800 0 1000 4[27m
+[7m./pthreads1 800 600 0 4[27m
+[7m./pthreads1 800 600 1000 0[27m[A[A[A]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ ./pthreads1 0 600 1000 4
+./pthreads1 800 0 1000 4
+./pthreads1 800 600 0 4
+./pthreads1 800 600 1000 0
+[?2004lErro: largura deve ser maior que um.
+Erro: altura deve ser maior que um.
+Erro: max_iteracoes deve ser maior que zero.
+Erro: num_threads deve ser maior que zero.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./pthreads1 -1 600 1000 4[27m
+[7m./pthreads1 800 -1 1000 4[27m
+[7m./pthreads1 800 600 -1 4[27m
+[7m./pthreads1 800 600 1000 -1[27m[A[A[A]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ ./pthreads1 -1 600 1000 4
+./pthreads1 800 -1 1000 4
+./pthreads1 800 600 -1 4
+./pthreads1 800 600 1000 -1
+[?2004lErro: largura deve ser maior que um.
+Erro: altura deve ser maior que um.
+Erro: max_iteracoes deve ser maior que zero.
+Erro: num_threads deve ser maior que zero.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ [7m./pthreads1 999999999999999999999999 600 1000 4[27m
+[7m./pthreads1 800 999999999999999999999999 1000 4[27m
+[7m./pthreads1 800 600 999999999999999999999999 4[27m
+[7m./pthreads1 800 600 1000 999999999999999999999999[27m[A[A[A]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ ./pthreads1 999999999999999999999999 600 1000 4
+./pthreads1 800 999999999999999999999999 1000 4
+./pthreads1 800 600 999999999999999999999999 4
+./pthreads1 800 600 1000 999999999999999999999999
+[?2004lErro: numero fora do limite permitido.
+Erro: numero fora do limite permitido.
+Erro: numero fora do limite permitido.
+Erro: numero fora do limite permitido.
+[?2004h]0;luisf@aluisio: /mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[01;32mluisf@aluisio[00m:[01;34m/mnt/c/Users/luisf/FACULDADE/lfass-2/Conjunto-de-Mandelbrot[00m$ ./pthreads2
+./pthreads2 800
+./pthreads2 800 600
+./pthreads2 800 600 1000
+./pthreads2 800 600 1000 4 extra
+
+./pthreads2 abc 600 1000 4
+./pthreads2 800 abc 1000 4
+./pthreads2 800 600 abc 4./pthreads2 800 600 1000 abc./pthreads2 0 600 1000 4./pthreads2 800 0 1000 4./pthreads2 800 600 0 4./pthreads2 800 600 1000 0./pthreads2 -1 600 1000 4[7m./pthreads2 800 -1 1000 4[27m[7m./pthreads2 800 600 -1 4[27m[7m./pthreads2 800 600 1000 -1[27m[7m./pthreads2 999999999999999999999999 600 1000 4[27m[7m./pthreads2 800 999999999999999999999999 1000 4[27m[7m./pthreads2 800 600 999999999999999999999999 4[27m[7m./pthreads2 800 600 1000 999999999999999999999999[27m./pthreads2 800 -1 1000 4./pthreads2 800 600 -1 4./pthreads2 800 600 1000 -1./pthreads2 999999999999999999999999 600 1000 4./pthreads2 800 999999999999999999999999 1000 4./pthreads2 800 600 999999999999999999999999 4./pthreads2 800 600 1000 999999999999999999999999
+[?2004lErro: argumentos invalidos
+Erro: argumentos invalidos
+Erro: argumentos invalidos
+Erro: argumentos invalidos
+Erro: argumentos invalidos
+Erro: argumento da largura invalido.
+Erro: argumento da altura invalido.
+Erro: argumento de max_iteracoes invalido.
+Erro: argumento de num_threads invalido.
+Erro: largura deve ser maior que um.
+Erro: altura deve ser maior que um.
+Erro: max_iteracoes deve ser maior que zero.
+Erro: num_threads deve ser maior que zero.
+Erro: largura deve ser maior que um.
+Erro: altura deve ser maior que um.
+Erro: max_iteracoes deve ser maior que zero.
+Erro: num_threads deve ser maior que zero.
+Erro: numero fora do limite permitido.
+Erro: numero fora do limite permitido.
+Erro: numero fora do limite permitido.
+Erro: numer
