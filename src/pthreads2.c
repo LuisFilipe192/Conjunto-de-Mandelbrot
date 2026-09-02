@@ -5,55 +5,40 @@
 #include <limits.h>
 #include <errno.h>
 
-typedef struct dadosthread{
+typedef struct dadosthread {
     unsigned char *imagem;
     int largura;
     int altura;
-    int max_iteracoes;
-    int id;
-    int num_threads;
-}dadosthread;
+    int inicio;
+    int fim;
+    int contagem;
+} dadosthread;
 
-void *calcular(void *arg){
+void *calcular(void *arg) {
     dadosthread *dados = (dadosthread *)arg;
 
-    for(int y=dados->id;y < dados->altura;y+= dados->num_threads){
+    dados->contagem = 0;
+
+    for(int y=0;y < dados->altura; y++){
         for(int x=0;x < dados->largura;x++){
+            int intensidade = dados->imagem[y* dados->largura + x];
 
-            double real =-2.0 + x * 3.0/(dados->largura-1);
-
-            double imag =-1.5 + y * 3.0/(dados->altura-1);
-
-            double z_real =0.0;
-
-            double z_imag =0.0;
-
-            int iteracoes =0;
-
-            while(iteracoes < dados->max_iteracoes){
-
-                double novo_real = z_real*z_real - z_imag*z_imag + real;
-
-                double novo_imag = 2.0*z_real*z_imag + imag;
-
-                z_real = novo_real;
-
-                z_imag = novo_imag;
-
-                iteracoes++;
-
-                if(z_real*z_real + z_imag*z_imag > 4.0){
-                    break;
-                }
+            if(intensidade >= dados->inicio &&intensidade <= dados->fim){
+                dados->contagem++;
             }
-
-            int intensidade = (int)((iteracoes*255.0)/dados->max_iteracoes);
-
-            dados->imagem[y*dados->largura + x] = intensidade;
         }
     }
 
     return NULL;
+}
+
+void registrar_erro(char *mensagem){
+    FILE *arquivo = fopen("erros.txt","a");
+
+    if(arquivo != NULL){
+        fprintf(arquivo,"%s\n", mensagem);
+        fclose(arquivo);
+    }
 }
 
 int main(int argc, char *argv[]){
@@ -61,38 +46,37 @@ int main(int argc, char *argv[]){
     long valor;
 
     if(argc != 5){
-        fprintf(stderr, "Erro: argumentos invalidos\n");
+        registrar_erro("Erro: argumentos invalidos.");
         return 1;
     }
 
     errno = 0;
-
     char *end;
 
     valor = strtol(argv[1],&end,10);
 
     if(*end != '\0'){
-        fprintf(stderr, "Erro: argumento da largura invalido.\n");
+        registrar_erro("Erro: argumento da largura invalido.");
         return 1;
     }
 
     if(errno == ERANGE){
-        fprintf(stderr, "Erro: numero fora do limite permitido.\n");
+        registrar_erro("Erro: numero fora do limite permitido.");
         return 1;
     }
 
     if(valor > INT_MAX){
-        fprintf(stderr, "Erro: largura passou o limite maximo.\n");
+        registrar_erro("Erro: largura passou o limite maximo.");
         return 1;
     }
 
     if(valor < INT_MIN){
-        fprintf(stderr, "Erro: largura passou o limite minimo.\n");
+        registrar_erro("Erro: largura passou o limite minimo.");
         return 1;
     }
 
     if(valor <= 1){
-        fprintf(stderr, "Erro: largura deve ser maior que um.\n");
+        registrar_erro("Erro: largura deve ser maior que um.");
         return 1;
     }
 
@@ -103,27 +87,27 @@ int main(int argc, char *argv[]){
     valor = strtol(argv[2],&end,10);
 
     if(*end != '\0'){
-        fprintf(stderr, "Erro: argumento da altura invalido.\n");
+        registrar_erro("Erro: argumento da altura invalido.");
         return 1;
     }
 
     if(errno == ERANGE){
-        fprintf(stderr, "Erro: numero fora do limite permitido.\n");
+        registrar_erro("Erro: numero fora do limite permitido.");
         return 1;
     }
 
     if(valor > INT_MAX){
-        fprintf(stderr, "Erro: altura passou o limite maximo.\n");
+       registrar_erro("Erro: altura passou o limite maximo.");
         return 1;
     }
 
     if(valor < INT_MIN){
-        fprintf(stderr, "Erro: altura passou o limite minimo.\n");
+        registrar_erro("Erro: altura passou o limite minimo.");
         return 1;
     }
 
     if(valor <= 1){
-        fprintf(stderr, "Erro: altura deve ser maior que um.\n");
+        registrar_erro("Erro: altura deve ser maior que um.");
         return 1;
     }
 
@@ -134,27 +118,27 @@ int main(int argc, char *argv[]){
     valor = strtol(argv[3],&end,10);
 
     if(*end != '\0'){
-        fprintf(stderr, "Erro: argumento de max_iteracoes invalido.\n");
+        registrar_erro("Erro: argumento de max_iteracoes invalido.");
         return 1;
     }
 
     if(errno == ERANGE){
-        fprintf(stderr, "Erro: numero fora do limite permitido.\n");
+        registrar_erro("Erro: numero fora do limite permitido.");
         return 1;
     }
 
     if(valor > INT_MAX){
-        fprintf(stderr, "Erro: max_iteracoes passou o limite maximo.\n");
+        registrar_erro("Erro: max_iteracoes passou o limite maximo.");
         return 1;
     }
 
     if(valor < INT_MIN){
-        fprintf(stderr, "Erro: max_iteracoes passou o limite minimo.\n");
+        registrar_erro("Erro: max_iteracoes passou o limite minimo.");
         return 1;
     }
 
     if(valor <= 0){
-        fprintf(stderr, "Erro: max_iteracoes deve ser maior que zero.\n");
+        registrar_erro("Erro: max_iteracoes deve ser maior que zero.");
         return 1;
     }
 
@@ -165,27 +149,27 @@ int main(int argc, char *argv[]){
     valor = strtol(argv[4],&end,10);
 
     if(*end != '\0'){
-        fprintf(stderr, "Erro: argumento de num_threads invalido.\n");
+        registrar_erro("Erro: argumento de num_threads invalido.");
         return 1;
     }
 
     if(errno == ERANGE){
-        fprintf(stderr, "Erro: numero fora do limite permitido.\n");
+        registrar_erro("Erro: numero fora do limite permitido.");
         return 1;
     }
 
     if(valor > INT_MAX){
-        fprintf(stderr, "Erro: num_threads passou o limite maximo.\n");
+        registrar_erro("Erro: num_threads passou o limite maximo.");
         return 1;
     }
 
     if(valor < INT_MIN){
-        fprintf(stderr, "Erro: num_threads passou o limite minimo.\n");
+        registrar_erro("Erro: num_threads passou o limite minimo.");
         return 1;
     }
 
     if(valor <= 0){
-        fprintf(stderr, "Erro: num_threads deve ser maior que zero.\n");
+        registrar_erro("Erro: num_threads deve ser maior que zero.");
         return 1;
     }
 
@@ -194,59 +178,96 @@ int main(int argc, char *argv[]){
     unsigned char *imagem = malloc(largura*altura * sizeof(unsigned char));
 
     if(imagem == NULL){
-        fprintf(stderr, "Erro: falha na alocacao de memoria.\n");
+        registrar_erro("Erro: falha na alocacao de memoria.");
         return 1;
+    }
+
+    struct timespec inicio;
+    struct timespec fim;
+
+    clock_gettime(CLOCK_MONOTONIC, &inicio);
+
+    for(int y = 0; y < altura; y++){
+        for(int x = 0; x < largura; x++){
+
+            double real = -2.0 + x * 3.0/(largura-1);
+            double imag = -1.5 + y * 3.0/(altura-1);
+
+            double z_real = 0.0;
+            double z_imag = 0.0;
+
+            int iteracoes = 0;
+
+            while(iteracoes < max_iteracoes){
+                double novo_real =z_real * z_real - z_imag * z_imag +real;
+
+                double novo_imag =2.0 * z_real * z_imag +imag;
+
+                z_real = novo_real;
+                z_imag = novo_imag;
+
+                iteracoes++;
+
+                if(z_real * z_real +z_imag * z_imag > 4.0){
+                    break;
+                }
+            }
+
+            int intensidade =(int)((iteracoes * 255.0)/max_iteracoes);
+
+            imagem[y*largura + x] = intensidade;
+        }
     }
 
 
     pthread_t threads[num_threads];
-
     dadosthread dados[num_threads];
 
-    struct timespec inicio;
+    int tamanho_faixa = 256/num_threads;
 
-    struct timespec fim;
-
-
-    clock_gettime(CLOCK_MONOTONIC, &inicio);
-
-    for(int i = 0;i < num_threads;i++){
+    for(int i = 0; i < num_threads; i++){
 
         dados[i].imagem = imagem;
         dados[i].largura = largura;
         dados[i].altura = altura;
-        dados[i].max_iteracoes = max_iteracoes;
-        dados[i].id = i;
-        dados[i].num_threads = num_threads;
 
-        if(pthread_create(&threads[i], NULL, calcular,&dados[i])!=0){
-            fprintf(stderr,"Erro: falha na criacao da thread.\n");
+        dados[i].inicio = i * tamanho_faixa;
+
+        if (i == num_threads - 1) {
+            dados[i].fim = 255;
+        } else {
+            dados[i].fim =
+                (i + 1) * tamanho_faixa - 1;
+        }
+
+        dados[i].contagem = 0;
+
+        if(pthread_create(&threads[i],NULL,calcular,&dados[i]) != 0){
+            registrar_erro("Erro: falha na criacao da thread.");
             free(imagem);
             return 1;
         }
     }
 
-    for(int i=0;i < num_threads;i++){
+    for (int i=0;i < num_threads;i++){
+        if(pthread_join(threads[i], NULL) != 0){
+            registrar_erro("Erro: falha ao esperar pela thread.");
 
-        if(pthread_join(threads[i],NULL)!= 0){
-            fprintf(stderr, "Erro: falha ao esperar pela thread.\n");
             free(imagem);
-
             return 1;
         }
     }
 
+    clock_gettime(CLOCK_MONOTONIC,&fim);
 
-    clock_gettime(CLOCK_MONOTONIC, &fim);
-
-    double tempo = (fim.tv_sec - inicio.tv_sec)+ (fim.tv_nsec -inicio.tv_nsec)/1000000000.0;
+    double tempo =(fim.tv_sec - inicio.tv_sec) +(fim.tv_nsec - inicio.tv_nsec)/1000000000.0;
 
     FILE *times = fopen("times.txt","a");
 
     if(times == NULL){
-        fprintf(stderr,"Erro: falha na criacao do arquivo times.txt.\n");
-        free(imagem);
+        registrar_erro("Erro: falha na criacao do arquivo times.txt.");
 
+        free(imagem);
         return 1;
     }
 
@@ -254,12 +275,12 @@ int main(int argc, char *argv[]){
 
     fclose(times);
 
-    FILE *arquivo = fopen("mandelbrot_lfass_pthreads2.pgm","w");
+    FILE *arquivo =fopen("mandelbrot_lfass_pthreads2.pgm","w");
 
     if(arquivo == NULL){
-        fprintf(stderr,"Erro: falha na criacao do arquivo de saida.\n");
-        free(imagem);
+        registrar_erro("Erro: falha na criacao do arquivo de saida.");
 
+        free(imagem);
         return 1;
     }
 
@@ -267,12 +288,12 @@ int main(int argc, char *argv[]){
         for(int x=0;x < largura;x++){
             fprintf(arquivo,"%d",imagem[y*largura + x]);
 
-            if(x < largura - 1){
-                fprintf(arquivo, " ");
+            if (x < largura-1) {
+                fprintf(arquivo," ");
             }
         }
 
-        fprintf(arquivo, "\n");
+        fprintf(arquivo,"\n");
     }
 
     fclose(arquivo);

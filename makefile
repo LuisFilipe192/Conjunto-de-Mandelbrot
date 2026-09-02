@@ -15,3 +15,4 @@ pthreads2:
 clean:
 	rm -f mandelbrot openMP pthreads1 pthreads2
 	rm -f *.pgm times.txt
+	rm -f *.pgm erros.txt

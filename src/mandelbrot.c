@@ -4,43 +4,52 @@
 #include <errno.h>
 #include <time.h>
 
+void registrar_erro(char *mensagem){
+    FILE *arquivo = fopen("erros.txt", "a");
+
+    if(arquivo != NULL){
+        fprintf(arquivo, "%s\n", mensagem);
+        fclose(arquivo);
+    }
+}
+
 int main(int argc, char *argv[]){
-    
+
     long valor;
 
     if(argc != 5){
-        fprintf(stderr,"Erro: argumentos invalidos\n");
+        registrar_erro("Erro: argumentos invalidos");
         return 1;
     }
 
 // largura
     errno = 0;
-
     char *end;
+
     valor = strtol(argv[1], &end, 10);
 
     if(*end != '\0'){
-        fprintf(stderr, "Erro: argumento da largura invalido.\n");
+        registrar_erro("Erro: argumento da largura invalido.");
         return 1;
     }
 
     if(errno == ERANGE){
-        fprintf(stderr, "Erro: numero fora do limite permitido.\n");
+        registrar_erro("Erro: numero fora do limite permitido.");
         return 1;
     }
 
     if(valor > INT_MAX){
-        fprintf(stderr, "Erro: valor passou o limite maximo.\n");
+        registrar_erro("Erro: valor passou o limite maximo.");
         return 1;
     }
 
     if(valor < INT_MIN){
-        fprintf(stderr, "Erro: valor passou o limite minimo.\n");
+        registrar_erro("Erro: valor passou o limite minimo.");
         return 1;
     }
 
     if(valor <= 0){
-        fprintf(stderr, "Erro: largura deve ser maior que zero.\n");
+        registrar_erro("Erro: largura deve ser maior que zero.");
         return 1;
     }
 
@@ -48,99 +57,95 @@ int main(int argc, char *argv[]){
 
 // altura
     errno = 0;
+
     valor = strtol(argv[2], &end, 10);
 
     if(*end != '\0'){
-        fprintf(stderr, "Erro: argumento da altura invalido.\n");
+        registrar_erro("Erro: argumento da altura invalido.");
         return 1;
     }
 
     if(errno == ERANGE){
-        fprintf(stderr, "Erro: numero fora do limite permitido.\n");
+        registrar_erro("Erro: numero fora do limite permitido.");
         return 1;
     }
 
     if(valor > INT_MAX){
-        fprintf(stderr, "Erro: valor passou o limite maximo.\n");
+        registrar_erro("Erro: valor passou o limite maximo.");
         return 1;
     }
 
     if(valor < INT_MIN){
-        fprintf(stderr, "Erro: valor passou o limite minimo.\n");
+        registrar_erro("Erro: valor passou o limite minimo.");
         return 1;
     }
 
     if(valor <= 0){
-        fprintf(stderr, "Erro: altura deve ser maior que zero.\n");
+        registrar_erro("Erro: altura deve ser maior que zero.");
         return 1;
     }
 
     int altura = (int)valor;
 
-    // max_iteracoes
-
+// max_iteracoes
     errno = 0;
 
     valor = strtol(argv[3], &end, 10);
 
     if(*end != '\0'){
-
-        fprintf(stderr, "Erro: argumento de max_iteracoes invalido.\n");
-
+        registrar_erro("Erro: argumento de max_iteracoes invalido.");
         return 1;
     }
 
     if(errno == ERANGE){
-
-        fprintf(stderr, "Erro: numero fora do limite permitido.\n");
-
+        registrar_erro("Erro: numero fora do limite permitido.");
         return 1;
     }
 
     if(valor > INT_MAX){
-        fprintf(stderr, "Erro: max_iteracoes passou o limite maximo.\n");
+        registrar_erro("Erro: max_iteracoes passou o limite maximo.");
         return 1;
     }
 
     if(valor < INT_MIN){
-        fprintf(stderr, "Erro: max_iteracoes passou o limite minimo.\n");
+        registrar_erro("Erro: max_iteracoes passou o limite minimo.");
         return 1;
     }
 
     if(valor <= 0){
-        fprintf(stderr, "Erro: max_iteracoes deve ser maior que zero.\n");
+        registrar_erro("Erro: max_iteracoes deve ser maior que zero.");
         return 1;
     }
 
     int max_iteracoes = (int)valor;
 
-
-    //num_threads
+// num_threads
     errno = 0;
+
     valor = strtol(argv[4], &end, 10);
 
     if(*end != '\0'){
-        fprintf(stderr, "Erro: argumento de num_threads invalido.\n");
+        registrar_erro("Erro: argumento de num_threads invalido.");
         return 1;
     }
 
     if(errno == ERANGE){
-        fprintf(stderr, "Erro: numero fora do limite permitido.\n");
+        registrar_erro("Erro: numero fora do limite permitido.");
         return 1;
     }
 
     if(valor > INT_MAX){
-        fprintf(stderr, "Erro: num_threads passou o limite maximo.\n");
+        registrar_erro("Erro: num_threads passou o limite maximo.");
         return 1;
     }
 
     if(valor < INT_MIN){
-        fprintf(stderr, "Erro: num_threads passou o limite minimo.\n");
+        registrar_erro("Erro: num_threads passou o limite minimo.");
         return 1;
     }
 
     if(valor <= 0){
-        fprintf(stderr, "Erro: num_threads deve ser maior que zero.\n");
+        registrar_erro("Erro: num_threads deve ser maior que zero.");
         return 1;
     }
 
@@ -149,12 +154,10 @@ int main(int argc, char *argv[]){
     struct timespec inicio;
     struct timespec fim;
 
-    unsigned char *imagem =malloc(largura * altura * sizeof(unsigned char));
+    unsigned char *imagem = malloc(largura * altura * sizeof(unsigned char));
 
     if(imagem == NULL){
-
-        fprintf(stderr,"Erro: falha na alocacao de memoria.\n");
-
+        registrar_erro("Erro: falha na alocacao de memoria.");
         return 1;
     }
 
@@ -198,7 +201,7 @@ int main(int argc, char *argv[]){
     FILE *times = fopen("times.txt", "a");
 
     if(times==NULL){
-        fprintf(stderr,"Erro: falha na criacao do arquivo times.txt.\n");
+        registrar_erro("Erro: falha na criacao do arquivo times.txt.");
         free(imagem);
         return 1;
     }
@@ -209,9 +212,8 @@ int main(int argc, char *argv[]){
     FILE *arquivo = fopen("mandelbrot_lfass_serial.pgm","w");
 
     if(arquivo == NULL){
-        fprintf(stderr, "Erro: falha na criacao do arquivo de saida.\n");
+        registrar_erro("Erro: falha na criacao do arquivo de saida.");
         free(imagem);
-
         return 1;
     }
 
